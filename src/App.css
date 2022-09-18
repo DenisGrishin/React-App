@@ -11,20 +11,9 @@
 
 }
 
-.nav {
-  grid-area: n;
-  background-color: #c00;
-}
 
-.header {
-  grid-area: h;
-  background-color: greenyellow;
-}
 
-.header img {
-  width: 100px;
 
-}
 
 .content {
   grid-area: c;

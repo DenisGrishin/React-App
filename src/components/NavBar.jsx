@@ -1,17 +1,19 @@
+import s from'./NavBar.module.css';
+
 const NavBar = ()=>{
-	return	 <nav className="nav">
+	return	 <nav className={s.nav}>
 	<ul>
 	  <li>
-		 <a href="#">Profile</a>
+		 <a href="#" className={`${s.item} ${s.active}`}>Profile</a>
 	  </li>
 	  <li>
-		 <a href="#">Message</a>
+		 <a href="#" className={s.item}>Message</a> 
 	  </li>
 	  <li>
-		 <a href="#">Music</a>
+		 <a href="#" className={s.item}>Music</a>
 	  </li>
 	  <li>
-		 <a href="#">Settings</a>
+		 <a href="#" className={s.item}>Settings</a>
 	  </li>
 	</ul>
  </nav>
