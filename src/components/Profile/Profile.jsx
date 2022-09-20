@@ -1,4 +1,4 @@
-import Post from './MyPosts/Post/Post';
+import MyPost from './MyPosts/MyPosts';
 import s from './Profile.module.css';
 const Profile = () => {
   return (
@@ -14,10 +14,7 @@ const Profile = () => {
           <textarea name="" id="" cols="30" rows="10"></textarea>
           <button>add</button>
           <button>remove</button>
-          <div className={s.posts}>
-            <Post />
-            <Post />
-          </div>
+          <MyPost />
         </div>
       </div>
     </div>
